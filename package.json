@@ -1,7 +1,7 @@
 {
   "name": "@thedadi/as-integration-koa",
   "description": "Apollo server integration for koa framework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "type": "module",
   "repository": {
