@@ -1,9 +1,6 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@1.6.3/schema.json",
-  "changelog": [
-    "@changesets/changelog-github",
-    { "repo": "TheDadi/as-integration-koa" }
-  ],
+  "changelog": ["@changesets/changelog-github", { "repo": "TheDadi/as-integration-koa" }],
   "commit": true,
   "access": "public",
   "baseBranch": "master"
