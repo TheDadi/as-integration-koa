@@ -46,7 +46,7 @@ export function koaMiddleware<
 
   const parseBody = bodyParser(options?.bodyParserOptions);
 
-  return async (ctx) => {
+  return async (ctx, next) => {
     await parseBody(ctx, async () => {});
 
     const incomingHeaders = new HeaderMap();
@@ -85,5 +85,7 @@ export function koaMiddleware<
     for (const [k, v] of headers) {
       ctx.set(k, v);
     }
+
+    return next();
   };
 }
