@@ -1,12 +1,12 @@
 {
   "name": "@thedadi/as-integration-koa",
   "description": "Apollo server integration for koa framework",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apollo-server-integrations/apollo-server-integration-koa"
+    "url": "https://github.com/TheDadi/as-integration-koa"
   },
   "keywords": [
     "GraphQL",
