@@ -1,0 +1,16 @@
+# Ignore the compiled output.
+dist/
+
+# TypeScript incremental compilation cache
+*.tsbuildinfo
+
+# Node modules
+node_modules/
+
+# Mac OS
+.DS_Store
+
+# Intellij Configuration Files
+.idea/
+
+.tshy
