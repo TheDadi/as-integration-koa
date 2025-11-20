@@ -23,6 +23,6 @@ it('calls middlewares defined after it', async () => {
   });
 
   await request(app.callback()).post('/').send({ query: '{f}' }).expect(200);
-  expect(spy).toHaveBeenCalled()
+  expect(spy).toHaveBeenCalled();
   await server.stop();
 });
