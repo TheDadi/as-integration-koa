@@ -2,9 +2,9 @@
 
 A lightweight Koa integration for `@apollo/server`, providing:
 
--   GraphQL over HTTP
 -   Simple, modern Koa middleware
 -   Strong TypeScript context typing
+-   Compatible with Apollo Server v5
 
 ------------------------------------------------------------------------
 
