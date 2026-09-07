@@ -1,5 +1,5 @@
 import { ApolloServer } from '@apollo/server';
-import { expect, it } from '@jest/globals';
+import { expect, it, jest } from '@jest/globals';
 import koa from 'koa';
 import request from 'supertest';
 import { koaMiddleware } from '../index.js';
